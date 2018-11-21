@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C1C291921719624009446DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C291821719624009446DB /* AppDelegate.swift */; };
+		5C1C291B21719624009446DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C291A21719624009446DB /* ViewController.swift */; };
+		5C1C291E21719624009446DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C291C21719624009446DB /* Main.storyboard */; };
+		5C1C292021719624009446DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C291F21719624009446DB /* Assets.xcassets */; };
+		5C1C292321719624009446DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1C292121719624009446DB /* LaunchScreen.storyboard */; };
+		5C1C292E21719625009446DB /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C292D21719625009446DB /* _____Tests.swift */; };
+		5C1C293921719625009446DB /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C293821719625009446DB /* _____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C1C292A21719625009446DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1C290D21719624009446DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1C291421719624009446DB;
+			remoteInfo = "词法分析器";
+		};
+		5C1C293521719625009446DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1C290D21719624009446DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1C291421719624009446DB;
+			remoteInfo = "词法分析器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C1C291521719624009446DB /* 词法分析器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "词法分析器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1C291821719624009446DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C1C291A21719624009446DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C1C291D21719624009446DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C1C291F21719624009446DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C1C292221719624009446DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C1C292421719624009446DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1C292921719625009446DB /* 词法分析器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "词法分析器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1C292D21719625009446DB /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		5C1C292F21719625009446DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1C293421719625009446DB /* 词法分析器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "词法分析器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1C293821719625009446DB /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
+		5C1C293A21719625009446DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1C291221719624009446DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1C292621719625009446DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1C293121719625009446DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1C290C21719624009446DB = {
+			isa = PBXGroup;
+			children = (
+				5C1C291721719624009446DB /* 词法分析器 */,
+				5C1C292C21719625009446DB /* 词法分析器Tests */,
+				5C1C293721719625009446DB /* 词法分析器UITests */,
+				5C1C291621719624009446DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C1C291621719624009446DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C1C291521719624009446DB /* 词法分析器.app */,
+				5C1C292921719625009446DB /* 词法分析器Tests.xctest */,
+				5C1C293421719625009446DB /* 词法分析器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C1C291721719624009446DB /* 词法分析器 */ = {
+			isa = PBXGroup;
+			children = (
+				5C1C291821719624009446DB /* AppDelegate.swift */,
+				5C1C291A21719624009446DB /* ViewController.swift */,
+				5C1C291C21719624009446DB /* Main.storyboard */,
+				5C1C291F21719624009446DB /* Assets.xcassets */,
+				5C1C292121719624009446DB /* LaunchScreen.storyboard */,
+				5C1C292421719624009446DB /* Info.plist */,
+			);
+			path = "词法分析器";
+			sourceTree = "<group>";
+		};
+		5C1C292C21719625009446DB /* 词法分析器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1C292D21719625009446DB /* _____Tests.swift */,
+				5C1C292F21719625009446DB /* Info.plist */,
+			);
+			path = "词法分析器Tests";
+			sourceTree = "<group>";
+		};
+		5C1C293721719625009446DB /* 词法分析器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1C293821719625009446DB /* _____UITests.swift */,
+				5C1C293A21719625009446DB /* Info.plist */,
+			);
+			path = "词法分析器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1C291421719624009446DB /* 词法分析器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1C293D21719625009446DB /* Build configuration list for PBXNativeTarget "词法分析器" */;
+			buildPhases = (
+				5C1C291121719624009446DB /* Sources */,
+				5C1C291221719624009446DB /* Frameworks */,
+				5C1C291321719624009446DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "词法分析器";
+			productName = "词法分析器";
+			productReference = 5C1C291521719624009446DB /* 词法分析器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C1C292821719625009446DB /* 词法分析器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1C294021719625009446DB /* Build configuration list for PBXNativeTarget "词法分析器Tests" */;
+			buildPhases = (
+				5C1C292521719625009446DB /* Sources */,
+				5C1C292621719625009446DB /* Frameworks */,
+				5C1C292721719625009446DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1C292B21719625009446DB /* PBXTargetDependency */,
+			);
+			name = "词法分析器Tests";
+			productName = "词法分析器Tests";
+			productReference = 5C1C292921719625009446DB /* 词法分析器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C1C293321719625009446DB /* 词法分析器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1C294321719625009446DB /* Build configuration list for PBXNativeTarget "词法分析器UITests" */;
+			buildPhases = (
+				5C1C293021719625009446DB /* Sources */,
+				5C1C293121719625009446DB /* Frameworks */,
+				5C1C293221719625009446DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1C293621719625009446DB /* PBXTargetDependency */,
+			);
+			name = "词法分析器UITests";
+			productName = "词法分析器UITests";
+			productReference = 5C1C293421719625009446DB /* 词法分析器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C1C290D21719624009446DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "孙一鸣";
+				TargetAttributes = {
+					5C1C291421719624009446DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5C1C292821719625009446DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1C291421719624009446DB;
+					};
+					5C1C293321719625009446DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1C291421719624009446DB;
+					};
+				};
+			};
+			buildConfigurationList = 5C1C291021719624009446DB /* Build configuration list for PBXProject "词法分析器" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C1C290C21719624009446DB;
+			productRefGroup = 5C1C291621719624009446DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C1C291421719624009446DB /* 词法分析器 */,
+				5C1C292821719625009446DB /* 词法分析器Tests */,
+				5C1C293321719625009446DB /* 词法分析器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1C291321719624009446DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1C292321719624009446DB /* LaunchScreen.storyboard in Resources */,
+				5C1C292021719624009446DB /* Assets.xcassets in Resources */,
+				5C1C291E21719624009446DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1C292721719625009446DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1C293221719625009446DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1C291121719624009446DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1C291B21719624009446DB /* ViewController.swift in Sources */,
+				5C1C291921719624009446DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1C292521719625009446DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1C292E21719625009446DB /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1C293021719625009446DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1C293921719625009446DB /* _____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C1C292B21719625009446DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1C291421719624009446DB /* 词法分析器 */;
+			targetProxy = 5C1C292A21719625009446DB /* PBXContainerItemProxy */;
+		};
+		5C1C293621719625009446DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1C291421719624009446DB /* 词法分析器 */;
+			targetProxy = 5C1C293521719625009446DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C1C291C21719624009446DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1C291D21719624009446DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C1C292121719624009446DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1C292221719624009446DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C1C293B21719625009446DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C1C293C21719625009446DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1C293E21719625009446DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "词法分析器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pan.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C1C293F21719625009446DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "词法分析器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pan.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C1C294121719625009446DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "词法分析器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pan.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/词法分析器.app/词法分析器";
+			};
+			name = Debug;
+		};
+		5C1C294221719625009446DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "词法分析器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pan.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/词法分析器.app/词法分析器";
+			};
+			name = Release;
+		};
+		5C1C294421719625009446DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "词法分析器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pan.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "词法分析器";
+			};
+			name = Debug;
+		};
+		5C1C294521719625009446DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "词法分析器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pan.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "词法分析器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1C291021719624009446DB /* Build configuration list for PBXProject "词法分析器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1C293B21719625009446DB /* Debug */,
+				5C1C293C21719625009446DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1C293D21719625009446DB /* Build configuration list for PBXNativeTarget "词法分析器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1C293E21719625009446DB /* Debug */,
+				5C1C293F21719625009446DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1C294021719625009446DB /* Build configuration list for PBXNativeTarget "词法分析器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1C294121719625009446DB /* Debug */,
+				5C1C294221719625009446DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1C294321719625009446DB /* Build configuration list for PBXNativeTarget "词法分析器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1C294421719625009446DB /* Debug */,
+				5C1C294521719625009446DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C1C290D21719624009446DB /* Project object */;
+}
